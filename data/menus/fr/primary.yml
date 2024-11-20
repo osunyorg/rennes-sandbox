@@ -4,5 +4,9 @@ items:
 - title: Titre menu 1
   target: "/actualites/categorie-1/"
   kind: category
-  children: []
+  children:
+  - title: Lien menu vers sous-catégorie
+    target: "/actualites/categorie-1/sous-categorie/"
+    kind: category
+    children: []
 
