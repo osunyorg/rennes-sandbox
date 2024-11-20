@@ -1,4 +1,8 @@
 ---
 title: Menu principal
-items: []
+items:
+- title: Catégorie 1
+  target: "/actualites/categorie-1/"
+  kind: category
+  children: []
 
