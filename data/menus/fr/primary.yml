@@ -9,6 +9,6 @@ items:
     target: "/actualites/categorie-1/sous-categorie/"
     kind: category
     children: []
-    file: content/fr/posts_categories/categorie-1-sous-categorie/_index.html
+    file: content/fr/posts_categories/categorie-1/sous-categorie/_index.html
   file: content/fr/posts_categories/categorie-1/_index.html
 
