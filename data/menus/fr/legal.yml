@@ -7,10 +7,10 @@ items:
   children: []
   file: content/fr/pages/mentions-legales/_index.html
 - title: Politique de confidentialité
-  target: "/politique-de-confidentialite/"
+  target: "/politique-de-confidentialites/"
   kind: page
   children: []
-  file: content/fr/pages/politique-de-confidentialite/_index.html
+  file: content/fr/pages/politique-de-confidentialites/_index.html
 - title: Accessibilité
   target: "/accessibilite/"
   kind: page
