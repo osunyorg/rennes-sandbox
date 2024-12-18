@@ -4,10 +4,12 @@ items:
 - title: Titre menu 1
   target: "/actualites/categorie-1/"
   kind: category
+  new_tab: false
   children:
   - title: Lien menu vers sous-catégorie
     target: "/actualites/categorie-1/sous-categorie/"
     kind: category
+    new_tab: false
     children: []
     path: "/posts_categories/categorie-1/sous-categorie"
     file: content/fr/posts_categories/categorie-1/sous-categorie/_index.html
