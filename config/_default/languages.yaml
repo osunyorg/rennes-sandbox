@@ -16,8 +16,8 @@ fr:
     projects_categories: /projets/:slug/
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
-    organizations: /organisations/:slug/
-    organizations_categories: /organisations/categories/:slug/
+    organizations: /liste-organisations/:slug/
+    organizations_categories: /liste-organisations/categories/:slug/
     persons: /equipe/:slug/
     persons_categories: /equipe/categories/:slug/
     authors: /equipe/:slug/actualites/
