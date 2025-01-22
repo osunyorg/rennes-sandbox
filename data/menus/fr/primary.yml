@@ -13,6 +13,13 @@ items:
     children: []
     path: "/posts_categories/categorie-1/sous-categorie"
     file: content/fr/posts_categories/categorie-1/sous-categorie/_index.html
+  - title: Essai
+    target: "/actualites/2024-12-02-essai/"
+    kind: post
+    new_tab: false
+    children: []
+    path: "/posts/2024/2024-12-02-essai"
+    file: content/fr/posts/2024/2024-12-02-essai.html
   path: "/posts_categories/categorie-1"
   file: content/fr/posts_categories/categorie-1/_index.html
 
