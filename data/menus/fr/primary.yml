@@ -2,8 +2,8 @@
 title: Menu principal
 items:
 - title: Titre menu 1
-  target: "/actualites/categorie-1/"
-  kind: category
+  target: ''
+  kind: blank
   new_tab: false
   children:
   - title: Lien menu vers sous-catégorie
