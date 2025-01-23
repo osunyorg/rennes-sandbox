@@ -56,7 +56,7 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 22
+  seconds: 24
   text: >-
     moins d'une minute
 contents:
@@ -95,17 +95,24 @@ contents:
   - kind: block
     template: posts
     title: >-
-      
+      Nos articles sur le sujet
     slug: >-
-      
+      nos-articles-sur-le-sujet
     ranks:
       base: 2
-      children: 2
+      self: 2
+      children: 3
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Nos articles sur le sujet
+        heading: 2
+        link: "/actualites/"
     data:
       mode: all
-      layout: grid
+      all: true
+      layout: list
       options:
         author: false
         categories: false
