@@ -1,4 +1,11 @@
 ---
 title: Menu thématiques
-items: []
+items:
+- title: Fiches pratiques
+  target: "/actualites/type-de-contenus/fiches-pratiques/"
+  kind: category
+  new_tab: false
+  children: []
+  path: "/posts_categories/type-de-contenus/fiches-pratiques"
+  file: content/fr/posts_categories/type-de-contenus/fiches-pratiques/_index.html
 
