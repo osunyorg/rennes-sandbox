@@ -1,0 +1,317 @@
+@font-face
+  font-family: VistaSansOT
+  font-weight: 400
+  font-style: normal
+  font-display: fallback
+  src: url(/build/fonts/VistaSansOT-Reg.woff) format("woff")
+
+@font-face
+  font-family: VistaSansOT
+  font-weight: 100
+  font-style: normal
+  font-display: fallback
+  src: url(/build/fonts/VistaSansOT-Light.woff) format("woff")
+
+@font-face
+  font-family: VistaSansOT
+  font-weight: 700
+  font-style: normal
+  font-display: fallback
+  src: url(/build/fonts/VistaSansOT-Medium.woff) format("woff")
+
+@font-face
+  font-family: icomoon
+  font-weight: 400
+  font-style: normal
+  font-display: block
+  src: url(/build/fonts/icomoon.woff) format("woff")
+
+body
+  background-color: #fff
+  font-family: VistaSansOT,Roboto,sans-serif
+
+.button
+  position: relative
+  float: right
+  font-size: 15px
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.1)
+  display: flex
+  align-items: center
+  justify-content: center
+  padding: 14px 16px
+  background: #fff
+  border-radius: 4px
+  border: none
+  line-height: 1
+  text-decoration: none
+  cursor: pointer
+
+.form
+  max-width: 824px
+  margin: auto
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  align-items: flex-start
+  width: 100%
+
+  .form-item
+    &.keyword
+      width: 100%
+
+    &.city, &.distance, &.price, &.surface
+      width: calc(50% - 10px)
+
+    &.building-type, &.financing-type, &.housing-type
+      width: calc(33% - 10px)
+
+    label
+      display: block
+      padding: 13px 16px
+      color: #dd3627
+      font-weight: 700
+      font-size: 16px
+      margin-bottom: 0
+
+    .range, input:not([type=checkbox]), select
+      display: block
+      width: 100%
+      padding: 13px 16px
+      border: 1px solid #bababa
+      border-radius: 4px
+      font-size: 16px
+      background: #fff
+      height: 44px
+
+    .range.range, input:not([type=checkbox]).range, select.range
+      padding: 25px 16px
+      height: auto
+
+    .range.range
+      .input-range__label--max, .input-range__label--min
+        display: none
+
+    input:not([type=checkbox]).range
+      .input-range__label--max, .input-range__label--min
+        display: none
+
+    select.range
+      .input-range__label--max, .input-range__label--min
+        display: none
+
+    .range.range
+      .input-range__slider, .input-range__track--active
+        background-color: #dd3627
+        border-color: #dd3627
+
+    input:not([type=checkbox]).range
+      .input-range__slider, .input-range__track--active
+        background-color: #dd3627
+        border-color: #dd3627
+
+    select.range
+      .input-range__slider, .input-range__track--active
+        background-color: #dd3627
+        border-color: #dd3627
+
+    .range.range .input-range, input:not([type=checkbox]).range .input-range, select.range .input-range
+      width: 94%
+
+    .range.range .input-range--disabled, input:not([type=checkbox]).range .input-range--disabled, select.range .input-range--disabled
+      cursor: not-allowed
+
+      *
+        cursor: not-allowed
+
+    .range.range .input-range--disabled
+      .input-range__slider, .input-range__track--active
+        background-color: #989696FF
+        border-color: #989696FF
+
+    input:not([type=checkbox]).range .input-range--disabled
+      .input-range__slider, .input-range__track--active
+        background-color: #989696FF
+        border-color: #989696FF
+
+    select.range .input-range--disabled
+      .input-range__slider, .input-range__track--active
+        background-color: #989696FF
+        border-color: #989696FF
+
+    .range.range .range-check, input:not([type=checkbox]).range .range-check, select.range .range-check
+      display: flex
+      padding-top: 15px
+      align-items: center
+
+    .range.range .range-check label, input:not([type=checkbox]).range .range-check label, select.range .range-check label
+      padding: 0
+      padding-left: 10px
+
+    .k-dropdown-wrap
+      background-color: transparent
+      border: none
+
+    .k-dropdown
+      border: 1px solid #bababa
+      border-radius: 4px
+      font-size: 16px
+      height: 44px
+      background: #fff
+      width: 100%
+
+      .k-select
+        font-family: icomoon !important
+        content: "\E90C"
+        top: 50%
+        right: 11px
+        font-size: 10px
+        margin-top: -5px
+        color: #dd3627
+        font-weight: 700
+
+  .button
+    margin: 20px 0 0 auto
+    color: #fff
+    background-color: #dd3627
+
+.loading
+  background: url(/build/images/rolling.gif) 10px 10px no-repeat
+  padding-left: 70px
+  font-size: 48px
+  font-weight: lighter
+
+.results
+  margin-top: 40px
+  display: flex
+  flex-direction: row
+
+  .count
+    font-size: 48px
+    font-weight: lighter
+    padding-bottom: 20px
+    border-bottom: 1px solid #e6e6e6
+
+  .map
+    flex: 1
+    margin: 0 15px
+
+    .leaflet-container
+      height: 500px
+      width: 100%
+
+  .list
+    flex: 1
+
+    .item
+      display: flex
+      flex-direction: row
+      padding: 25px
+      border-bottom: 1px solid #edf1f0
+      cursor: pointer
+
+      .image
+        flex: 1
+        margin-right: 48px
+
+        .placeholder
+          display: block
+          background: #edf1f0 url(https://metropole.rennes.fr/themes/custom/rennes_metropole/public/img/logo-rm-white%402x.png) no-repeat 50%
+          background-size: 80px 75px
+          width: 100%
+          padding-bottom: 70%
+          transition: transform .4s
+
+        img
+          transition: transform .4s
+          max-width: 100%
+          height: auto
+
+      .content
+        flex: 2
+
+        h2
+          font-weight: 400
+
+        .address
+          font-size: 16px
+
+        h3
+          font-size: 18px
+          margin-top: 15px
+          margin-bottom: 5px
+          color: #8c8c8c
+
+        .promoters .promoter
+          font-weight: 700
+          font-size: 16px
+          display: block
+
+        .button
+          position: relative
+          float: right
+          font-size: 15px
+          box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.1)
+          display: flex
+          align-items: center
+          justify-content: center
+          padding: 20px 30px
+          background: #fff
+          border-radius: 4px
+          border: none
+          line-height: 1
+          color: #2a2a2a
+          text-decoration: none
+          transition: background-color .2s
+          cursor: pointer
+          padding-right: 50px
+          display: none
+
+          &:before
+            content: ""
+            background: #dd3627
+            width: 0
+            height: 2px
+            position: absolute
+            display: block
+            bottom: 0
+            left: 0
+            transition: width .2s
+
+          &:after
+            font-family: icomoon !important
+            content: "\E909"
+            position: absolute
+            display: inline-block
+            top: 50%
+            margin-top: -7px
+            right: 20px
+            margin-left: 3px
+            width: 20px
+            height: 1em
+            transition: all .273s
+            color: #dd3627
+
+      &.focused, &:hover
+        background-color: rgba(255, 0, 0, 0.11)
+
+      &.focused .image
+        .placeholder, img
+          transform: scale(1.1)
+
+      &:hover .image
+        .placeholder, img
+          transform: scale(1.1)
+
+      &.focused .button:before, &:hover .button:before
+        width: 100%
+
+@media (max-width: 768px)
+  .results
+    flex-direction: column
+
+.marker-cluster
+  background-color: #DD362766 !important
+
+  div
+    background-color: #dd3627 !important
+    color: #fff
