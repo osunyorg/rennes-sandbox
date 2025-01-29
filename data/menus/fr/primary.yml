@@ -1,0 +1,77 @@
+---
+title: Menu principal
+items:
+- title: Actualités
+  target: "/actualites/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/posts"
+  file: content/fr/posts/_index.html
+- title: Agenda
+  target: "/agenda/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/events"
+  file: content/fr/events/_index.html
+- title: Projets
+  target: "/projets/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/projects"
+  file: content/fr/projects/_index.html
+- title: Équipe
+  target: "/equipe/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/persons"
+  file: content/fr/persons/_index.html
+- title: Annuaire
+  target: "/liste-organisations/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/organizations"
+  file: content/fr/organizations/_index.html
+- title: "“Appliquer les filtres: la recherche se relance manuellement via ce bouton
+    et n’est pas relancée aut“Appliquer les filtres: la recherche se relance manuellement
+    via ce bouton et n’est pas relancée automatiquement lors d’interactions sur les
+    filtres.omatiquement lors d’interactions sur les filtres."
+  target: "/appliquer-les-filtres-la-recherche-se-relance-manuellement-via-ce-bouton-et-nest-pas-relancee-autapp/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/appliquer-les-filtres-la-recherche-se-relance-manuellement-via-ce-bouton-et-nest-pas-relancee-autapp"
+  file: content/fr/pages/appliquer-les-filtres-la-recherche-se-relance-manuellement-via-ce-bouton-et-nest-pas-relancee-autapp/_index.html
+- title: Toutes les fiches pratiques culture et sports
+  target: "/toutes-les-fiches-pratiques-culture-et-sports/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/toutes-les-fiches-pratiques-culture-et-sports"
+  file: content/fr/pages/toutes-les-fiches-pratiques-culture-et-sports/_index.html
+- title: 'Page: Appel à action'
+  target: "/page-appel-a-action/"
+  kind: page
+  new_tab: false
+  children:
+  - title: 'Page: Chiffres clés et remontée de personnes'
+    target: "/page-appel-a-action/page-chiffres-cles-et-remontee-de-personnes/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/page-appel-a-action/page-chiffres-cles-et-remontee-de-personnes"
+    file: content/fr/pages/page-appel-a-action/page-chiffres-cles-et-remontee-de-personnes/_index.html
+  path: "/pages/page-appel-a-action"
+  file: content/fr/pages/page-appel-a-action/_index.html
+- title: Ici Rennes Actualités
+  target: "/ici-rennes-actualites/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/ici-rennes-actualites"
+  file: content/fr/pages/ici-rennes-actualites/_index.html
+
