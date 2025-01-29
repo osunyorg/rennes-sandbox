@@ -1,0 +1,325 @@
+@font-face {
+    font-family: VistaSansOT;
+    font-weight: 400;
+    font-style: normal;
+    font-display: fallback;
+    src: url(/build/fonts/VistaSansOT-Reg.woff) format("woff")
+}
+
+@font-face {
+    font-family: VistaSansOT;
+    font-weight: 100;
+    font-style: normal;
+    font-display: fallback;
+    src: url(/build/fonts/VistaSansOT-Light.woff) format("woff")
+}
+
+@font-face {
+    font-family: VistaSansOT;
+    font-weight: 700;
+    font-style: normal;
+    font-display: fallback;
+    src: url(/build/fonts/VistaSansOT-Medium.woff) format("woff")
+}
+
+@font-face {
+    font-family: icomoon;
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+    src: url(/build/fonts/icomoon.woff) format("woff")
+}
+
+body {
+    background-color: #fff;
+    font-family: VistaSansOT, Roboto, sans-serif
+}
+
+.button {
+    position: relative;
+    float: right;
+    font-size: 15px;
+    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 16px;
+    background: #fff;
+    border-radius: 4px;
+    border: none;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.form {
+    max-width: 824px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start
+}
+
+.form, .form .form-item.keyword {
+    width: 100%
+}
+
+.form .form-item.city, .form .form-item.distance, .form .form-item.price, .form .form-item.surface {
+    width: calc(50% - 10px)
+}
+
+.form .form-item.building-type, .form .form-item.financing-type, .form .form-item.housing-type {
+    width: calc(33% - 10px)
+}
+
+.form .form-item label {
+    display: block;
+    padding: 13px 16px;
+    color: #dd3627;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 0
+}
+
+.form .form-item .range, .form .form-item input:not([type=checkbox]), .form .form-item select {
+    display: block;
+    width: 100%;
+    padding: 13px 16px;
+    border: 1px solid #bababa;
+    border-radius: 4px;
+    font-size: 16px;
+    background: #fff;
+    height: 44px
+}
+
+.form .form-item .range.range, .form .form-item input:not([type=checkbox]).range, .form .form-item select.range {
+    padding: 25px 16px;
+    height: auto
+}
+
+.form .form-item .range.range .input-range__label--max, .form .form-item .range.range .input-range__label--min, .form .form-item input:not([type=checkbox]).range .input-range__label--max, .form .form-item input:not([type=checkbox]).range .input-range__label--min, .form .form-item select.range .input-range__label--max, .form .form-item select.range .input-range__label--min {
+    display: none
+}
+
+.form .form-item .range.range .input-range__slider, .form .form-item .range.range .input-range__track--active, .form .form-item input:not([type=checkbox]).range .input-range__slider, .form .form-item input:not([type=checkbox]).range .input-range__track--active, .form .form-item select.range .input-range__slider, .form .form-item select.range .input-range__track--active {
+    background-color: #dd3627;
+    border-color: #dd3627
+}
+
+.form .form-item .range.range .input-range, .form .form-item input:not([type=checkbox]).range .input-range, .form .form-item select.range .input-range {
+    width: 94%
+}
+
+.form .form-item .range.range .input-range--disabled, .form .form-item .range.range .input-range--disabled *, .form .form-item input:not([type=checkbox]).range .input-range--disabled, .form .form-item input:not([type=checkbox]).range .input-range--disabled *, .form .form-item select.range .input-range--disabled, .form .form-item select.range .input-range--disabled * {
+    cursor: not-allowed
+}
+
+.form .form-item .range.range .input-range--disabled .input-range__slider, .form .form-item .range.range .input-range--disabled .input-range__track--active, .form .form-item input:not([type=checkbox]).range .input-range--disabled .input-range__slider, .form .form-item input:not([type=checkbox]).range .input-range--disabled .input-range__track--active, .form .form-item select.range .input-range--disabled .input-range__slider, .form .form-item select.range .input-range--disabled .input-range__track--active {
+    background-color: #989696FF;
+    border-color: #989696FF
+}
+
+.form .form-item .range.range .range-check, .form .form-item input:not([type=checkbox]).range .range-check, .form .form-item select.range .range-check {
+    display: flex;
+    padding-top: 15px;
+    align-items: center
+}
+
+.form .form-item .range.range .range-check label, .form .form-item input:not([type=checkbox]).range .range-check label, .form .form-item select.range .range-check label {
+    padding: 0;
+    padding-left: 10px
+}
+
+.form .form-item .k-dropdown-wrap {
+    background-color: transparent;
+    border: none
+}
+
+.form .form-item .k-dropdown {
+    border: 1px solid #bababa;
+    border-radius: 4px;
+    font-size: 16px;
+    height: 44px;
+    background: #fff;
+    width: 100%
+}
+
+.form .form-item .k-dropdown .k-select {
+    font-family: icomoon !important;
+    content: "\E90C";
+    top: 50%;
+    right: 11px;
+    font-size: 10px;
+    margin-top: -5px;
+    color: #dd3627;
+    font-weight: 700
+}
+
+.form .button {
+    margin: 20px 0 0 auto;
+    color: #fff;
+    background-color: #dd3627
+}
+
+.loading {
+    background: url(/build/images/rolling.gif) 10px 10px no-repeat;
+    padding-left: 70px;
+    font-size: 48px;
+    font-weight: lighter
+}
+
+.results {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row
+}
+
+@media (max-width: 768px) {
+    .results {
+        flex-direction: column
+    }
+}
+
+.results .count {
+    font-size: 48px;
+    font-weight: lighter;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e6e6e6
+}
+
+.results .map {
+    flex: 1;
+    margin: 0 15px
+}
+
+.results .map .leaflet-container {
+    height: 500px;
+    width: 100%
+}
+
+.results .list {
+    flex: 1
+}
+
+.results .list .item {
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    border-bottom: 1px solid #edf1f0;
+    cursor: pointer
+}
+
+.results .list .item .image {
+    flex: 1;
+    margin-right: 48px
+}
+
+.results .list .item .image .placeholder {
+    display: block;
+    background: #edf1f0 url(https://metropole.rennes.fr/themes/custom/rennes_metropole/public/img/logo-rm-white%402x.png) no-repeat 50%;
+    background-size: 80px 75px;
+    width: 100%;
+    padding-bottom: 70%;
+    transition: transform .4s
+}
+
+.results .list .item .image img {
+    transition: transform .4s;
+    max-width: 100%;
+    height: auto
+}
+
+.results .list .item .content {
+    flex: 2
+}
+
+.results .list .item .content h2 {
+    font-weight: 400
+}
+
+.results .list .item .content .address {
+    font-size: 16px
+}
+
+.results .list .item .content h3 {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #8c8c8c
+}
+
+.results .list .item .content .promoters .promoter {
+    font-weight: 700;
+    font-size: 16px;
+    display: block
+}
+
+.results .list .item .content .button {
+    position: relative;
+    float: right;
+    font-size: 15px;
+    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+    background: #fff;
+    border-radius: 4px;
+    border: none;
+    line-height: 1;
+    color: #2a2a2a;
+    text-decoration: none;
+    transition: background-color .2s;
+    cursor: pointer;
+    padding-right: 50px;
+    display: none
+}
+
+.results .list .item .content .button:before {
+    content: "";
+    background: #dd3627;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    transition: width .2s
+}
+
+.results .list .item .content .button:after {
+    font-family: icomoon !important;
+    content: "\E909";
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    margin-top: -7px;
+    right: 20px;
+    margin-left: 3px;
+    width: 20px;
+    height: 1em;
+    transition: all .273s;
+    color: #dd3627
+}
+
+.results .list .item.focused, .results .list .item:hover {
+    background-color: rgba(255, 0, 0, .11)
+}
+
+.results .list .item.focused .image .placeholder, .results .list .item.focused .image img, .results .list .item:hover .image .placeholder, .results .list .item:hover .image img {
+    transform: scale(1.1)
+}
+
+.results .list .item.focused .button:before, .results .list .item:hover .button:before {
+    width: 100%
+}
+
+.marker-cluster {
+    background-color: #DD362766 !important
+}
+
+.marker-cluster div {
+    background-color: #dd3627 !important;
+    color: #fff
+}
