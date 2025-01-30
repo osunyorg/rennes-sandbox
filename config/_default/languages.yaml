@@ -32,6 +32,8 @@ fr:
 
   permalinks:
     pages_categories: /:slug/
+    posts: /actualites/:year-:month-:day-:slug/
+    posts_categories: /actualites/:slug/
     organizations: /liste-organisations/:slug/
     organizations_categories: /liste-organisations/categories/:slug/
     persons: /equipe/:slug/
