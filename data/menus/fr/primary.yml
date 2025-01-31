@@ -1,20 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: 'Page: Appel à action'
-  target: "/page-appel-a-action/"
-  kind: page
-  new_tab: false
-  children:
-  - title: 'Page: Chiffres clés et remontée de personnes'
-    target: "/page-appel-a-action/page-chiffres-cles-et-remontee-de-personnes/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/page-appel-a-action/page-chiffres-cles-et-remontee-de-personnes"
-    file: content/fr/pages/page-appel-a-action/page-chiffres-cles-et-remontee-de-personnes/_index.html
-  path: "/pages/page-appel-a-action"
-  file: content/fr/pages/page-appel-a-action/_index.html
 - title: Ici Rennes Actualités
   target: "/ici-rennes-actualites/"
   kind: page
