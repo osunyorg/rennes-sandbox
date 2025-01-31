@@ -1,20 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: Équipe
-  target: "/equipe/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/persons"
-  file: content/fr/persons/_index.html
-- title: Annuaire
-  target: "/liste-organisations/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/organizations"
-  file: content/fr/organizations/_index.html
 - title: "“Appliquer les filtres: la recherche se relance manuellement via ce bouton
     et n’est pas relancée aut“Appliquer les filtres: la recherche se relance manuellement
     via ce bouton et n’est pas relancée automatiquement lors d’interactions sur les
