@@ -15,4 +15,11 @@ items:
   children: []
   path: "/posts_categories/categorie-1"
   file: content/fr/posts_categories/categorie-1/_index.html
+- title: Sous catégorie 2
+  target: "/actualites/categorie-1/sous-categorie-2/"
+  kind: category
+  new_tab: false
+  children: []
+  path: "/posts_categories/categorie-1/sous-categorie-2"
+  file: content/fr/posts_categories/categorie-1/sous-categorie-2/_index.html
 
