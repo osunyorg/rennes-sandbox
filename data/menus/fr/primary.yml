@@ -1,16 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: "“Appliquer les filtres: la recherche se relance manuellement via ce bouton
-    et n’est pas relancée aut“Appliquer les filtres: la recherche se relance manuellement
-    via ce bouton et n’est pas relancée automatiquement lors d’interactions sur les
-    filtres.omatiquement lors d’interactions sur les filtres."
-  target: "/appliquer-les-filtres-la-recherche-se-relance-manuellement-via-ce-bouton-et-nest-pas-relancee-autapp/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/appliquer-les-filtres-la-recherche-se-relance-manuellement-via-ce-bouton-et-nest-pas-relancee-autapp"
-  file: content/fr/pages/appliquer-les-filtres-la-recherche-se-relance-manuellement-via-ce-bouton-et-nest-pas-relancee-autapp/_index.html
 - title: Toutes les fiches pratiques culture et sports
   target: "/toutes-les-fiches-pratiques-culture-et-sports/"
   kind: page
