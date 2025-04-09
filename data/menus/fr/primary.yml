@@ -1,8 +1,8 @@
 ---
 title: Menu principal
 items:
-- title: Fiches pratiques
-  target: "/types-de-contenus/fiches-pratiques/"
+- title: Fiches d'informations
+  target: "/types-de-contenus/fiches-informations/"
   kind: url
   new_tab: false
   children: []
