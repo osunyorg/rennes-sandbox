@@ -1,2 +1,5 @@
 theme: rennes-hugo-theme
 _merge: deep
+Params:
+  debug:
+    active:
