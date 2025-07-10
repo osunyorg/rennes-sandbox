@@ -558,7 +558,7 @@ contents:
 
 
   - kind: block
-    template: exhibitions
+    template: projects
     title: >-
       Projets
     slug: >-
@@ -573,34 +573,33 @@ contents:
         value: >-
           Projets
         heading: 2
-        link: "/expositions/"
+        link: "/projets/"
     data:
       mode: all
+      all: true
+      layout: grid
       options:
         categories: true
-        dates: true
         image: true
         subtitle: true
         summary: false
-        status: false
+        year: true
 
-      layout: grid
-      description: >-
-        
-
-      no_exhibition_message: >-
-        
-
-      title_link: "/expositions/"
-      exhibitions:
-        - permalink: "/expositions/2025-06-10-test/"
-          path: "/exhibitions/2025-06-10-test"
-          slug: "test"
-          file: "content/fr/exhibitions/2025-06-10-test.html"
+      projects:
+        - permalink: "/projets/2024-projet-1/"
+          path: "/projects/2024-projet-1"
+          slug: "projet-1"
+          file: "content/fr/projects/2024-projet-1.html"
           name: >-
-            test
+            Projet 1
+        - permalink: "/projets/2024-projet-2/"
+          path: "/projects/2024-projet-2"
+          slug: "projet-2"
+          file: "content/fr/projects/2024-projet-2.html"
+          name: >-
+            Projet 2
 
-      quantity: 1
+      quantity: 2
 
   - kind: block
     template: call_to_action
