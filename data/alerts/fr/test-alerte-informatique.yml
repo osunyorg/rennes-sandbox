@@ -1,0 +1,13 @@
+---
+title: >-
+  Test alerte panne informatique majeure (ne pas supprimer svp)
+level: danger
+content: >-
+  <p>Certains services en ligne de Rennes, ville et métropole sont en panne depuis samedi X, 14h. Des analyses sont en cours pour les réparer au plus vite. Dans l'attente, toutes les informations importantes sont dans la page dédiée. </p>
+button:
+  title: >-
+    Texte du bouton d'action
+  url: >-
+    https://icirennes.fr
+  target_blank: true
+---
