@@ -6,8 +6,8 @@ content: >-
   <p>Certains services en ligne de Rennes, ville et métropole sont en panne depuis samedi X, 14h. Des analyses sont en cours pour les réparer au plus vite. Dans l'attente, toutes les informations importantes sont dans la page dédiée. </p>
 button:
   title: >-
-    Texte du bouton d'action
+    En savoir plus sur l'organisation des services
   url: >-
-    https://icirennes.fr
+    https://rennes.osuny.org/admin/fr/communication/websites/f804c549-2ed3-46aa-819d-79c2d60f1316/pages/73b86459-69d5-4fa7-80e6-2e9ae895a202
   target_blank: true
 ---
