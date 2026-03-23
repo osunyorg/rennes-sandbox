@@ -10,7 +10,7 @@ bodyclass: >-
 url: "/test-1/"
 slug: "test-1"
 date: 2025-11-21T15:12:42+01:00
-lastmod: 2026-03-23T11:43:27+01:00
+lastmod: 2026-03-23T11:47:39+01:00
 meta:
   hugo:
     permalink: "/test-1/"
@@ -19,7 +19,7 @@ meta:
     slug: "test-1"
   dates:
     created_at: 2025-10-06T15:40:31+02:00
-    updated_at: 2026-03-23T11:43:27+01:00
+    updated_at: 2026-03-23T11:47:39+01:00
     published_at: 2025-11-21T15:12:42+01:00
 search:
   id: "c740fd84-3006-4d0a-a50c-325ebdd3fb85"
@@ -31,7 +31,7 @@ search:
     Test
 
   body: >-
-    <p>Nom de bloc  <br>Description du bloc <br>https://vimeo.com/732180675 <br>Titre de la vidéo</p>  <p> Nom de bloc  <br>Description du bloc <br>https://vimeo.com/732180675 <br>Titre de la vidéo</p>  <p> Nom de bloc  <br>Titre de l'enregistrement <br>Version textuelle du contenu <br> Nom du bloc  <br>Version textuelle du contenu <br>Titre de la version textuelle <br> Bloc sans alerte sur l'écoconception  <br>Version textuelle du contenu <br>Titre de la version textuelle <br> Takuya  <br>Takuya <br>Takuya </p>
+    <p>Nom de bloc  <br>Description du bloc <br>https://vimeo.com/732180675 <br>Titre de la vidéo</p>  <p> Nom de bloc  <br>Description du bloc <br>https://vimeo.com/732180675 <br>Titre de la vidéo</p>  <p> Nom de bloc  <br>Titre de l'enregistrement <br>Version textuelle du contenu <br> Nom du bloc  <br>Version textuelle du contenu <br>Titre de la version textuelle <br> Bloc sans alerte sur l'écoconception  <br>Version textuelle du contenu <br>Titre de la version textuelle <br> Takuya  <br>Takuya <br>Takuya <br> Test remonté d'événement avec horaire  </p>  <p>Aucun événement</p>
 
 breadcrumbs:
   - title: >-
@@ -77,7 +77,7 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 18
+  seconds: 20
   text: >-
     moins d'une minute
 contents:
@@ -288,13 +288,21 @@ contents:
 
   - kind: block
     template: agenda
-
-
+    title: >-
+      Test remonté d'événement avec horaire
+    slug: >-
+      test-remonte-d-evenement-avec-horaire
     ranks:
       base: 2
-      children: 2
+      self: 2
+      children: 3
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Test remonté d'événement avec horaire
+        heading: 2
+        link: "/agenda/"
 
     data:
       mode: all
@@ -312,29 +320,18 @@ contents:
 
       layout: grid
 
-
+      no_event_message: >-
+        Aucun événement
       title_link: "/agenda/"
       events:
-        - permalink: "/agenda/2024/les-videos-du-mercredi/"
-          path: "/events/2025/04/16-10-30-les-videos-du-mercredi"
-          slug: "les-videos-du-mercredi"
-          file: "content/fr/events/2025/04/16-10-30-les-videos-du-mercredi.html"
+        - permalink: "/agenda/2026/test-evenement-avec-horaire/"
+          path: "/events/2026/03/25-15-00-test-evenement-avec-horaire"
+          slug: "test-evenement-avec-horaire"
+          file: "content/fr/events/2026/03/25-15-00-test-evenement-avec-horaire.html"
           name: >-
-            Les vidéos du mercredi
-        - permalink: "/agenda/2024/les-videos-du-mercredi/"
-          path: "/events/2025/04/09-10-30-les-videos-du-mercredi"
-          slug: "les-videos-du-mercredi"
-          file: "content/fr/events/2025/04/09-10-30-les-videos-du-mercredi.html"
-          name: >-
-            Les vidéos du mercredi
-        - permalink: "/agenda/2024/les-videos-du-mercredi/"
-          path: "/events/2025/02/19-10-30-les-videos-du-mercredi"
-          slug: "les-videos-du-mercredi"
-          file: "content/fr/events/2025/02/19-10-30-les-videos-du-mercredi.html"
-          name: >-
-            Les vidéos du mercredi
+            Test événement avec horaire
 
-      quantity: 3
+      quantity: 1
 
 
 ---
