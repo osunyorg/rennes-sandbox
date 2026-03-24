@@ -13,3 +13,224 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
+
+[[redirects]]
+from = "/types-de-contenus/actions/"
+to = "/rubrique/nos-actions/"
+status = 301
+
+[[redirects]]
+from = "/skol-diwan-keryann-2/"
+to = "/toutes-les-fiches-pratiques-culture-et-sports/skol-diwan-keryann-2/"
+status = 301
+
+[[redirects]]
+from = "/agenda/archives/"
+to = "/agenda/"
+status = 301
+
+[[redirects]]
+from = "/categories/sports/"
+to = "/sports/"
+status = 301
+
+[[redirects]]
+from = "/liste-organisations/piscine-brequigny/"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/piscine-saint-georges/"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/liste-organisations/piscine-saint-georges/"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/les-horaires-des-gymnases/"
+to = "/fiches-pratiques/les-menus-des-creches/"
+status = 301
+
+[[redirects]]
+from = "/nos-actions/ce-que-fait-rennes-metropole-pour-le-logement/"
+to = "/ce-que-fait-rennes-metropole-pour-le-logement/"
+status = 301
+
+[[redirects]]
+from = "/fiches-pratiques/sports-et-loisirs/"
+to = "/sports-et-loisirs/"
+status = 301
+
+[[redirects]]
+from = "/page-chiffres-cles-et-remontee-de-personnes/"
+to = "/page-appel-a-action/page-chiffres-cles-et-remontee-de-personnes/"
+status = 301
+
+[[redirects]]
+from = "/liste-organisations/piscine-gayeulles/"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/equipe/guillaume-rouan/"
+to = "/guillaume-rouan/"
+status = 301
+
+[[redirects]]
+from = "/types-de-contenus/nos-actions/"
+to = "/rubrique/nos-actions/"
+status = 301
+
+[[redirects]]
+from = "/types-de-contenus/fiches-pratiques/"
+to = "/rubrique/fiches-informations/"
+status = 301
+
+[[redirects]]
+from = "/equipe/equipe-editoriale/"
+to = "/equipe-editoriale/"
+status = 301
+
+[[redirects]]
+from = "/liste-organisations/4bis-information-jeunesse/"
+to = "/4bis-information-jeunesse/"
+status = 301
+
+[[redirects]]
+from = "/projets/jeunesse/"
+to = "/projets/cibles/jeunesse/"
+status = 301
+
+[[redirects]]
+from = "/fiches-pratiques/les-horaires-des-gymnases/"
+to = "/fiches-pratiques/les-menus-des-creches/"
+status = 301
+
+[[redirects]]
+from = "/equipe/florian-guillanton/"
+to = "/florian-guillanton/"
+status = 301
+
+[[redirects]]
+from = "/equipe/estelle-soleillant/"
+to = "/estelle-soleillant/"
+status = 301
+
+[[redirects]]
+from = "/organisations/4bis-information-jeunesse/"
+to = "/4bis-information-jeunesse/"
+status = 301
+
+[[redirects]]
+from = "/types-de-contenus/"
+to = "/rubrique/"
+status = 301
+
+[[redirects]]
+from = "/liste-organisations/"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/equipe/matthieu-delsaut/"
+to = "/matthieu-delsaut/"
+status = 301
+
+[[redirects]]
+from = "/les-horaires-des-piscines/"
+to = "/fiches-pratiques/les-horaires-des-piscines/"
+status = 301
+
+[[redirects]]
+from = "/organisations/"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/politique-de-confidentialite/"
+to = "/politique-de-confidentialites/"
+status = 301
+
+[[redirects]]
+from = "/equipe/perrine-chaissac/"
+to = "/perrine-chaissac/"
+status = 301
+
+[[redirects]]
+from = "/piscine-brequigny/"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/projets/logement/"
+to = "/projets/themes/logement/"
+status = 301
+
+[[redirects]]
+from = "/equipe/"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/liste-organisations/categories/sports/"
+to = "/sports/"
+status = 301
+
+[[redirects]]
+from = "/types-de-contenus/fiches-informations/"
+to = "/rubrique/fiches-informations/"
+status = 301
+
+[[redirects]]
+from = "/types-de-contenus/fiches/"
+to = "/rubrique/fiches-informations/"
+status = 301
+
+[[redirects]]
+from = "/actualites/"
+to = "/communiques-de-presse/"
+status = 301
+
+[[redirects]]
+from = "/actions/"
+to = "/rubrique/nos-actions/"
+status = 301
+
+[[redirects]]
+from = "/fiches-pratiques/aides/"
+to = "/aides/"
+status = 301
+
+[[redirects]]
+from = "/equipe/christophe-panon/"
+to = "/christophe-panon/"
+status = 301
+
+[[redirects]]
+from = "/fiches-pratiques/associations/"
+to = "/associations/"
+status = 301
+
+[[redirects]]
+from = "/fiches-pratiques/culture/"
+to = "/culture/"
+status = 301
+
+[[redirects]]
+from = "/skol-diwan-keryann/"
+to = "/toutes-les-fiches-pratiques-culture-et-sports/"
+status = 301
+
+[[redirects]]
+from = "/piscine-gayeulles/"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/equipe/naelle-frega/"
+to = "/naelle-frega/"
+status = 301
+
