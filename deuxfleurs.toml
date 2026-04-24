@@ -15,210 +15,210 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/piscine-brequigny/"
+from = "/piscine-brequigny/index.html"
 to = "/liste-organisations/piscine-brequigny/"
 
 [[redirects]]
-from = "/categories/sports/"
+from = "/categories/sports/index.html"
 to = "/liste-organisations/categories/sports/"
 
 [[redirects]]
-from = "/marion-lecointre/"
+from = "/marion-lecointre/index.html"
 to = "/annuaire-des-elus/marion-lecointre/"
 
 [[redirects]]
-from = "/estelle-soleillant/"
+from = "/estelle-soleillant/index.html"
 to = "/annuaire-des-elus/estelle-soleillant/"
 
 [[redirects]]
-from = "/communiques-de-presse/test-actu-panne-informatique-ne-pas-effacer/"
+from = "/communiques-de-presse/test-actu-panne-informatique-ne-pas-effacer/index.html"
 to = "/communiques-de-presse/test-actu/test-actu-panne-informatique-ne-pas-effacer/"
 
 [[redirects]]
-from = "/florian-guillanton/"
+from = "/florian-guillanton/index.html"
 to = "/annuaire-des-elus/florian-guillanton/"
 
 [[redirects]]
-from = "/types-de-contenus/actions/"
+from = "/types-de-contenus/actions/index.html"
 to = "/rubrique/nos-actions/"
 
 [[redirects]]
-from = "/skol-diwan-keryann-2/"
+from = "/skol-diwan-keryann-2/index.html"
 to = "/toutes-les-fiches-pratiques-culture-et-sports/skol-diwan-keryann-2/"
 
 [[redirects]]
-from = "/4bis-information-jeunesse/"
+from = "/4bis-information-jeunesse/index.html"
 to = "/liste-organisations/4bis-information-jeunesse/"
 
 [[redirects]]
-from = "/piscine-gayeulles/"
+from = "/piscine-gayeulles/index.html"
 to = "/liste-organisations/piscine-gayeulles/"
 
 [[redirects]]
-from = "/sports/"
+from = "/sports/index.html"
 to = "/liste-organisations/categories/sports/"
 
 [[redirects]]
-from = "/les-horaires-des-gymnases/"
+from = "/les-horaires-des-gymnases/index.html"
 to = "/fiches-pratiques/les-menus-des-creches/"
 
 [[redirects]]
-from = "/piscine-saint-georges/"
+from = "/piscine-saint-georges/index.html"
 to = "/liste-organisations/piscine-saint-georges/"
 
 [[redirects]]
-from = "/perrine-chaissac/"
+from = "/perrine-chaissac/index.html"
 to = "/annuaire-des-elus/perrine-chaissac/"
 
 [[redirects]]
-from = "/marion-lecointre/communiques-de-presse/"
+from = "/marion-lecointre/communiques-de-presse/index.html"
 to = "/annuaire-des-elus/marion-lecointre/communiques-de-presse/"
 
 [[redirects]]
-from = "/fiches-pratiques/sports-et-loisirs/"
+from = "/fiches-pratiques/sports-et-loisirs/index.html"
 to = "/sports-et-loisirs/"
 
 [[redirects]]
-from = "/page-chiffres-cles-et-remontee-de-personnes/"
+from = "/page-chiffres-cles-et-remontee-de-personnes/index.html"
 to = "/page-appel-a-action/page-chiffres-cles-et-remontee-de-personnes/"
 
 [[redirects]]
-from = "/equipe/guillaume-rouan/"
+from = "/equipe/guillaume-rouan/index.html"
 to = "/annuaire-des-elus/guillaume-rouan/"
 
 [[redirects]]
-from = "/equipe-editoriale/"
+from = "/equipe-editoriale/index.html"
 to = "/annuaire-des-elus/equipe-editoriale/"
 
 [[redirects]]
-from = "/types-de-contenus/nos-actions/"
+from = "/types-de-contenus/nos-actions/index.html"
 to = "/rubrique/nos-actions/"
 
 [[redirects]]
-from = "/types-de-contenus/fiches-pratiques/"
+from = "/types-de-contenus/fiches-pratiques/index.html"
 to = "/rubrique/fiches-informations/"
 
 [[redirects]]
-from = "/equipe/equipe-editoriale/"
+from = "/equipe/equipe-editoriale/index.html"
 to = "/annuaire-des-elus/equipe-editoriale/"
 
 [[redirects]]
-from = "/projets/jeunesse/"
+from = "/projets/jeunesse/index.html"
 to = "/projets/cibles/jeunesse/"
 
 [[redirects]]
-from = "/fiches-pratiques/les-horaires-des-gymnases/"
+from = "/fiches-pratiques/les-horaires-des-gymnases/index.html"
 to = "/fiches-pratiques/les-menus-des-creches/"
 
 [[redirects]]
-from = "/equipe/florian-guillanton/"
+from = "/equipe/florian-guillanton/index.html"
 to = "/annuaire-des-elus/florian-guillanton/"
 
 [[redirects]]
-from = "/auriane-latremoliere/communiques-de-presse/"
+from = "/auriane-latremoliere/communiques-de-presse/index.html"
 to = "/annuaire-des-elus/auriane-latremoliere/communiques-de-presse/"
 
 [[redirects]]
-from = "/equipe/estelle-soleillant/"
+from = "/equipe/estelle-soleillant/index.html"
 to = "/annuaire-des-elus/estelle-soleillant/"
 
 [[redirects]]
-from = "/organisations/4bis-information-jeunesse/"
+from = "/organisations/4bis-information-jeunesse/index.html"
 to = "/liste-organisations/4bis-information-jeunesse/"
 
 [[redirects]]
-from = "/types-de-contenus/"
+from = "/types-de-contenus/index.html"
 to = "/rubrique/"
 
 [[redirects]]
-from = "/equipe/matthieu-delsaut/"
+from = "/equipe/matthieu-delsaut/index.html"
 to = "/annuaire-des-elus/matthieu-delsaut/"
 
 [[redirects]]
-from = "/les-horaires-des-piscines/"
+from = "/les-horaires-des-piscines/index.html"
 to = "/fiches-pratiques/les-horaires-des-piscines/"
 
 [[redirects]]
-from = "/organisations/"
+from = "/organisations/index.html"
 to = "/liste-organisations/"
 
 [[redirects]]
-from = "/politique-de-confidentialite/"
+from = "/politique-de-confidentialite/index.html"
 to = "/politique-de-confidentialites/"
 
 [[redirects]]
-from = "/christophe-panon/"
+from = "/christophe-panon/index.html"
 to = "/annuaire-des-elus/christophe-panon/"
 
 [[redirects]]
-from = "/equipe/perrine-chaissac/"
+from = "/equipe/perrine-chaissac/index.html"
 to = "/annuaire-des-elus/perrine-chaissac/"
 
 [[redirects]]
-from = "/projets/logement/"
+from = "/projets/logement/index.html"
 to = "/projets/themes/logement/"
 
 [[redirects]]
-from = "/equipe/"
+from = "/equipe/index.html"
 to = "/annuaire-des-elus/"
 
 [[redirects]]
-from = "/auriane-latremoliere/"
+from = "/auriane-latremoliere/index.html"
 to = "/annuaire-des-elus/auriane-latremoliere/"
 
 [[redirects]]
-from = "/guillaume-rouan/"
+from = "/guillaume-rouan/index.html"
 to = "/annuaire-des-elus/guillaume-rouan/"
 
 [[redirects]]
-from = "/types-de-contenus/fiches-informations/"
+from = "/types-de-contenus/fiches-informations/index.html"
 to = "/rubrique/fiches-informations/"
 
 [[redirects]]
-from = "/types-de-contenus/fiches/"
+from = "/types-de-contenus/fiches/index.html"
 to = "/rubrique/fiches-informations/"
 
 [[redirects]]
-from = "/actualites/"
+from = "/actualites/index.html"
 to = "/communiques-de-presse/"
 
 [[redirects]]
-from = "/naelle-frega/"
+from = "/naelle-frega/index.html"
 to = "/annuaire-des-elus/naelle-frega/"
 
 [[redirects]]
-from = "/actions/"
+from = "/actions/index.html"
 to = "/rubrique/nos-actions/"
 
 [[redirects]]
-from = "/ce-que-fait-rennes-metropole-pour-le-logement/"
+from = "/ce-que-fait-rennes-metropole-pour-le-logement/index.html"
 to = "/nos-actions/ce-que-fait-rennes-metropole-pour-le-logement/"
 
 [[redirects]]
-from = "/fiches-pratiques/aides/"
+from = "/fiches-pratiques/aides/index.html"
 to = "/aides/"
 
 [[redirects]]
-from = "/equipe/christophe-panon/"
+from = "/equipe/christophe-panon/index.html"
 to = "/annuaire-des-elus/christophe-panon/"
 
 [[redirects]]
-from = "/fiches-pratiques/associations/"
+from = "/fiches-pratiques/associations/index.html"
 to = "/associations/"
 
 [[redirects]]
-from = "/matthieu-delsaut/"
+from = "/matthieu-delsaut/index.html"
 to = "/annuaire-des-elus/matthieu-delsaut/"
 
 [[redirects]]
-from = "/fiches-pratiques/culture/"
+from = "/fiches-pratiques/culture/index.html"
 to = "/culture/"
 
 [[redirects]]
-from = "/skol-diwan-keryann/"
+from = "/skol-diwan-keryann/index.html"
 to = "/toutes-les-fiches-pratiques-culture-et-sports/"
 
 [[redirects]]
-from = "/equipe/naelle-frega/"
+from = "/equipe/naelle-frega/index.html"
 to = "/annuaire-des-elus/naelle-frega/"
 
