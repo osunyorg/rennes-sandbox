@@ -131,6 +131,10 @@ from = "/types-de-contenus/index.html"
 to = "/rubrique/"
 
 [[redirects]]
+from = "/communiques-de-presse/2026-02-18-test-affichage-bloc-video/index.html"
+to = "/communiques-de-presse/2026-02-18-test-horaires-bassins-evol/"
+
+[[redirects]]
 from = "/equipe/matthieu-delsaut/index.html"
 to = "/annuaire-des-elus/matthieu-delsaut/"
 
